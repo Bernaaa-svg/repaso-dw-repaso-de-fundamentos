@@ -1,5 +1,5 @@
 # Explicación de la estructura de una página web en HTML
-
+![copilot.png](/home/usuario/Escritorio/repaso-diseño/asset/copilot.png)
 ## Etiquetas principales
 - `<!DOCTYPE html>`: Indica que el documento es HTML5.
 - `<html>`: Etiqueta raíz que envuelve todo el contenido.
