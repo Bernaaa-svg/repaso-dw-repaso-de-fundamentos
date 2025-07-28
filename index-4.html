@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase 5: Formulario HTML avanzado</title>
+    <style>
+        form { max-width: 400px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        label { display: block; margin-top: 10px; }
+        input[type="text"], input[type="email"] { width: 100%; padding: 8px; margin-top: 4px; }
+        .form-group { margin-bottom: 12px; }
+        .form-actions { margin-top: 16px; }
+    </style>
+</head>
+<body>
+    <h1>Formulario de ejemplo</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label>Género:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+        </div>
+        <div class="form-group">
+            <label>Intereses:</label>
+            <input type="checkbox" id="deporte" name="intereses" value="deporte">
+            <label for="deporte">Deporte</label>
+            <input type="checkbox" id="musica" name="intereses" value="musica">
+            <label for="musica">Música</label>
+            <input type="checkbox" id="lectura" name="intereses" value="lectura">
+            <label for="lectura">Lectura</label>
+        </div>
+        <div class="form-actions">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
